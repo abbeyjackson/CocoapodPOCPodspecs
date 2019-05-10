@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "Abbey Jackson" => "abbey@abbeyjackson.ca" }
   s.ios.deployment_target = "11.0"
   s.source = { :http => "https://github.com/abbeyjackson/NestedFrameworks/releases/download/0.2-NC/ObjcFeatureFramework-iOS-universal.zip" }
-  s.vendored_frameworks = ["ObjcFeatureFramework-iOS-universal/ObjcFeatureFramework.framework"]
+  s.vendored_framework = "ObjcFeatureFramework-iOS-universal/ObjcFeatureFramework.framework"
   s.dependency "NestedCoreFramework", "~> 0.2-NC"
   s.frameworks  = "Foundation"
 end
