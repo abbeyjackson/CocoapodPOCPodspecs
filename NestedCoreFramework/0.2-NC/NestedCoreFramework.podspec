@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.2-NC"
   s.summary      = "Core Framework which is used by feature frameworks."
   s.description  = <<-DESC
-    Core Framework which is used by feature frameworks. This is a different description to silence the warning.
+    Core Framework which is used by feature frameworks. This is a different description to silence the warning. Updating as a demo.
   DESC
   s.homepage     = "https://github.com/abbeyjackson/NestedFrameworks"
   s.license      = { :type => "MIT", :file => "NestedCoreFramework-iOS-universal/LICENSE.md" }
